@@ -39,7 +39,7 @@ export function Hero() {
 
         <div
           className="absolute left-1/2 top-full -translate-x-1/2 -translate-y-1/2 z-30 md:w-[26rem] md:h-[26rem] lg:w-[34rem] lg:h-[34rem]"
-          style={{ width: "24rem", height: "24rem" }}
+          style={{ width: "18rem", height: "18rem" }}
         >
           <Image
             src="/logo-hermosa-cartagena.png?v=2"
@@ -53,10 +53,11 @@ export function Hero() {
 
       <div
         className="flex flex-col items-center gap-1 md:mt-8"
-        style={{ marginTop: "7rem" }}
+        style={{ marginTop: "5rem" }}
       >
-        <p className="text-center text-lg md:text-xl font-bold italic text-white">
-          ☀️ Líderes en experiencias Turísticas en Cartagena 🌴
+        <p className="mb-2 text-center text-lg font-bold leading-none italic text-white md:text-xl md:leading-[0.95]">
+          <span className="block">☀️ Líderes en experiencias</span>
+          <span className="block text-white">&nbsp;&nbsp;&nbsp;Turísticas en Cartagena 🌴</span>
         </p>
         <p className="text-center text-base md:text-lg font-bold italic text-white/90">
           +2.000 historias felices nos respaldan 💙

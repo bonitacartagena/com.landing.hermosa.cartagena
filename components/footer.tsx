@@ -61,7 +61,7 @@ export function Footer() {
                 href="https://www.facebook.com/share/1BXzpEvBLz/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-amber-400 transition-colors"
+                className="text-white hover:text-amber-400 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-8 h-8" />
@@ -70,7 +70,7 @@ export function Footer() {
                 href="https://www.instagram.com/hermosacartagena?igsh=d282NmZkNjdudTd2&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-amber-400 transition-colors"
+                className="text-white hover:text-amber-400 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-8 h-8" />
@@ -79,7 +79,7 @@ export function Footer() {
                 href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-95fqG1sbicO"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-amber-400 transition-colors"
+                className="text-white hover:text-amber-400 transition-colors"
                 aria-label="TikTok"
               >
                 <TikTok className="w-8 h-8" />
@@ -88,7 +88,7 @@ export function Footer() {
                 href="https://wa.me/573244617670"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-green-500 transition-colors"
+                className="text-white hover:text-green-500 transition-colors"
                 aria-label="WhatsApp"
               >
                 <WhatsAppIcon className="w-8 h-8" />

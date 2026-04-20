@@ -108,7 +108,7 @@ const beforeTestimonialsImages = [
     alt: "Playa tropical de aguas cristalinas en Cartagena de Indias",
   },
   {
-    src: "/4_2.png?v=2",
+    src: "/4_2.PNG?v=3",
     alt: "Turistas disfrutando una experiencia inolvidable en el Caribe colombiano",
   },
   {
