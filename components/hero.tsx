@@ -1,8 +1,8 @@
 import Image from "next/image"
 const heroImages = [
-  { src: "/1.jpeg", alt: "Turistas en lancha deportiva rumbo a las Islas del Rosario, Cartagena de Indias" },
-  { src: "/2.jpeg", alt: "Isla paradisiaca de aguas turquesas en el Caribe colombiano" },
-  { src: "/3.jpeg", alt: "Bora Bora Beach Club, el mejor beach club de Cartagena" },
+  { src: "/1.jpeg?v=2", alt: "Turistas en lancha deportiva rumbo a las Islas del Rosario, Cartagena de Indias" },
+  { src: "/2.jpeg?v=2", alt: "Isla paradisiaca de aguas turquesas en el Caribe colombiano" },
+  { src: "/3.jpeg?v=2", alt: "Bora Bora Beach Club, el mejor beach club de Cartagena" },
 ] as const
 
 export function Hero() {
@@ -29,7 +29,7 @@ export function Hero() {
 
         <div className="absolute -bottom-24 md:-bottom-32 lg:-bottom-36 left-1/2 -translate-x-1/2 z-30">
           <Image
-            src="/logo-hermosa-cartagena.png"
+            src="/logo-hermosa-cartagena.png?v=2"
             alt="Hermosa Cartagena Logo"
             width={288}
             height={288}
