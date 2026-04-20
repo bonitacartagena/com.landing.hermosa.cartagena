@@ -11,30 +11,30 @@ import { FloatingWhatsApp } from "@/components/floating-whatsapp";
 
 const beforeToursImages = [
   {
-    src: "/playa-cartagena-tropical.jpeg",
+    src: "/2_1.jpeg",
     alt: "Playa tropical de aguas cristalinas en Cartagena de Indias",
   },
   {
-    src: "/experiencia-turistica-cartagena.jpeg",
+    src: "/2_2.jpeg",
     alt: "Turistas disfrutando una experiencia inolvidable en el Caribe colombiano",
   },
   {
-    src: "/palenqueras-tradicionales-cartagena.png",
+    src: "/2_3.jpeg",
     alt: "Palenqueras con trajes tradicionales y frutas tipicas en el centro historico de Cartagena",
   },
 ] as const;
 
 const afterToursImages = [
   {
-    src: "/cartagena-cultura-caribe.png",
+    src: "/3_1.png",
     alt: "Cultura y arte del Caribe colombiano en Cartagena de Indias",
   },
   {
-    src: "/vista-iconica-cartagena.png",
+    src: "/3_2.png",
     alt: "Vista iconica de la muralla y bahia de Cartagena de Indias",
   },
   {
-    src: "/experiencia-cartagena-2.jpeg",
+    src: "/3_3.png",
     alt: "Visitantes explorando los atractivos turisticos de Cartagena",
   },
 ] as const;
@@ -83,6 +83,22 @@ const afterVideoImages = [
   {
     src: "/testimonio_11.jpeg",
     alt: "Pareja haciendo snorkel en aguas transparentes en Cartagena",
+  },
+  {
+    src: "/testimonio_12.jpeg",
+    alt: "Visitantes disfrutando su experiencia en Cartagena",
+  },
+  {
+    src: "/testimonio_13.jpeg",
+    alt: "Turistas en una parada durante su tour en Cartagena",
+  },
+  {
+    src: "/testimonio_14.jpeg",
+    alt: "Viajeros posando durante su experiencia en Cartagena",
+  },
+  {
+    src: "/testimonio_15.jpeg",
+    alt: "Grupo disfrutando de las playas de Cartagena",
   },
 ] as const;
 

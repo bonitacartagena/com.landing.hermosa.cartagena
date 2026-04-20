@@ -1,8 +1,8 @@
 import Image from "next/image"
 const heroImages = [
-  { src: "/hero-islas-del-rosario.jpeg", alt: "Turistas en lancha deportiva rumbo a las Islas del Rosario, Cartagena de Indias" },
-  { src: "/hero-isla-paradisiaca.png", alt: "Isla paradisiaca de aguas turquesas en el Caribe colombiano" },
-  { src: "/hero-bora-bora-beach-club.jpeg", alt: "Bora Bora Beach Club, el mejor beach club de Cartagena" },
+  { src: "/1.jpeg", alt: "Turistas en lancha deportiva rumbo a las Islas del Rosario, Cartagena de Indias" },
+  { src: "/2.jpeg", alt: "Isla paradisiaca de aguas turquesas en el Caribe colombiano" },
+  { src: "/3.jpeg", alt: "Bora Bora Beach Club, el mejor beach club de Cartagena" },
 ] as const
 
 export function Hero() {
