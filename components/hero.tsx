@@ -61,10 +61,10 @@ export function Hero() {
           <span className="block text-white">&nbsp;&nbsp;&nbsp;Turísticas en Cartagena 🌴</span>
         </p>
         <p className="text-center text-base md:text-lg font-bold italic text-white/90">
-          +2.000 historias felices nos respaldan 🤍
+          +5.000 historias felices nos respaldan 🤍
         </p>
         <span className="mt-1 inline-flex items-center gap-1 text-center text-md font-bold text-muted-foreground md:text-lg">
-          RNT: 1193509325-1
+          RNT: 205217
           <Check className="h-5 w-5 text-white" aria-hidden="true" />
         </span>
       </div>
