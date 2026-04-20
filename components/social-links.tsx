@@ -1,4 +1,6 @@
-import { Facebook, Instagram, MessageCircle } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
+
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 
 // TikTok icon component
 function TikTok({ className }: { className?: string }) {
@@ -11,10 +13,10 @@ function TikTok({ className }: { className?: string }) {
 
 export function SocialLinks() {
   return (
-    <section className="flex flex-col items-center gap-4 py-6">
-      <p className="text-muted-foreground text-sm text-center leading-relaxed">
-        Únete a nuestra comunidad de +200.000 viajeros<br />
-        Descubre experiencias únicas, momentos inolvidables 🌴✨
+    <section className="flex flex-col items-center gap-4 py-6 w-full max-w-sm md:max-w-4xl mx-auto px-4">
+      <p className="w-full text-muted-foreground text-sm text-center leading-relaxed">
+        Únete a nuestra comunidad de <strong>+200.000 viajeros</strong><br />
+        Descubre experiencias <strong>únicas</strong>, momentos <strong>inolvidables</strong> 🌴✨
       </p>
       <div className="flex gap-6">
         <a
@@ -51,7 +53,7 @@ export function SocialLinks() {
           className="text-foreground hover:text-green-500 transition-colors"
           aria-label="WhatsApp"
         >
-          <MessageCircle className="w-10 h-10" />
+          <WhatsAppIcon className="w-10 h-10" />
         </a>
       </div>
     </section>

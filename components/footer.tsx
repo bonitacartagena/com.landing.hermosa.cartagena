@@ -1,4 +1,6 @@
-import { Instagram, MessageCircle, Phone, Facebook, MapPin } from "lucide-react"
+import { Instagram, Phone, Facebook, MapPin } from "lucide-react"
+
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 
 const WHATSAPP_URL = "https://wa.me/573244617670"
 
@@ -26,7 +28,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-full transition-all"
             >
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5" />
               Escribenos por WhatsApp
             </a>
 
@@ -89,7 +91,7 @@ export function Footer() {
                 className="text-muted-foreground hover:text-green-500 transition-colors"
                 aria-label="WhatsApp"
               >
-                <MessageCircle className="w-8 h-8" />
+                <WhatsAppIcon className="w-8 h-8" />
               </a>
             </div>
           </div>

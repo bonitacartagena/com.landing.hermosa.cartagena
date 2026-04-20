@@ -4,6 +4,8 @@ import Image from "next/image"
 import { Clock, Check, ChevronDown, ChevronUp } from "lucide-react"
 import { useState } from "react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
+
 const WHATSAPP_NUMBER = "573244617670"
 
 interface TourCardProps {
@@ -92,6 +94,7 @@ export function TourCard({ id, title, description, image, duration, includes }: 
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-white font-semibold py-3 px-4 rounded-full transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-orange-500/30 mt-3 text-sm"
         >
+          <WhatsAppIcon className="w-4 h-4" />
           Reservar Ahora
         </a>
       </div>

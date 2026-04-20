@@ -102,12 +102,27 @@ const afterVideoImages = [
   },
 ] as const;
 
+const beforeTestimonialsImages = [
+  {
+    src: "/4_1.jpeg?v=2",
+    alt: "Playa tropical de aguas cristalinas en Cartagena de Indias",
+  },
+  {
+    src: "/4_2.png?v=2",
+    alt: "Turistas disfrutando una experiencia inolvidable en el Caribe colombiano",
+  },
+  {
+    src: "/4_3.jpeg?v=2",
+    alt: "Palenqueras con trajes tradicionales y frutas tipicas en el centro historico de Cartagena",
+  },
+] as const;
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-background">
       <Hero />
 
-      <div className="py-8 md:py-12">
+      <div className="pb-8 md:py-12">
         <CTAButtons />
       </div>
 
@@ -127,6 +142,8 @@ export default function HomePage() {
       />
 
       <Testimonials />
+
+      <ImageStrip images={beforeTestimonialsImages} />
 
       <Footer />
 

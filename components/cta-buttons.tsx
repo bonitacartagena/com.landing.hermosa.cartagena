@@ -1,4 +1,6 @@
-import { Palmtree, Star, MessageCircle, ShoppingBag, MapPin } from "lucide-react"
+import { Palmtree, Star, ShoppingBag, MapPin } from "lucide-react"
+
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 
 const WHATSAPP_URL = "https://wa.me/573244617670"
 const CATALOG_URL = "https://wa.me/c/573244617670"
@@ -64,7 +66,7 @@ export function CTAButtons() {
           className="flex items-center justify-center gap-3 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-white font-semibold py-4 px-6 md:px-8 rounded-full transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-orange-500/30 md:min-w-[200px]"
         >
           <span className="text-lg">RESERVA AHORA</span>
-          <MessageCircle className="w-6 h-6" />
+          <WhatsAppIcon className="w-6 h-6" />
         </a>
       </div>
     </section>
