@@ -60,10 +60,10 @@ export function Hero() {
           <span className="block text-white">&nbsp;&nbsp;&nbsp;Turísticas en Cartagena 🌴</span>
         </p>
         <p className="text-center text-base md:text-lg font-bold italic text-white/90">
-          +2.000 historias felices nos respaldan 💙
+          +2.000 historias felices nos respaldan 🤍
         </p>
         <span className="text-center text-md font-bold text-muted-foreground md:text-lg mt-1">
-          RNT: 1193509325-1 <span className="text-white">✔️</span>
+          RNT: 1193509325-1 <span className="text-white">&nbsp;✔</span>
         </span>
       </div>
     </section>

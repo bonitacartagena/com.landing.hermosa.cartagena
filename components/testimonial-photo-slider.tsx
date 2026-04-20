@@ -53,7 +53,7 @@ export function TestimonialPhotoSlider({
             Testimonios que hablan por nosotros <span className="text-white">🫂</span>
           </p>
           <h2 className="mt-2 text-2xl font-bold text-foreground md:text-4xl">
-            Ellos ya lo vivieron… ahora te toca a ti 😎🌴
+            Ellos ya lo vivieron… ahora te toca a ti 😎📸🌴
           </h2>
         </div>
 
