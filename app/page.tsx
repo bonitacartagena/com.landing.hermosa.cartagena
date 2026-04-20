@@ -26,15 +26,15 @@ const beforeToursImages = [
 
 const afterToursImages = [
   {
-    src: "/3_1.png?v=2",
+    src: "/3_1.PNG?v=2",
     alt: "Cultura y arte del Caribe colombiano en Cartagena de Indias",
   },
   {
-    src: "/3_2.png?v=2",
+    src: "/3_2.PNG?v=2",
     alt: "Vista iconica de la muralla y bahia de Cartagena de Indias",
   },
   {
-    src: "/3_3.png?v=2",
+    src: "/3_3.PNG?v=2",
     alt: "Visitantes explorando los atractivos turisticos de Cartagena",
   },
 ] as const;
