@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Check } from "lucide-react";
 const heroImages = [
   {
     src: "/1.jpeg?v=2",
@@ -62,8 +63,9 @@ export function Hero() {
         <p className="text-center text-base md:text-lg font-bold italic text-white/90">
           +2.000 historias felices nos respaldan 🤍
         </p>
-        <span className="text-center text-md font-bold text-muted-foreground md:text-lg mt-1">
-          RNT: 1193509325-1 <span className="text-white">&nbsp;✔</span>
+        <span className="mt-1 inline-flex items-center gap-1 text-center text-md font-bold text-muted-foreground md:text-lg">
+          RNT: 1193509325-1
+          <Check className="h-5 w-5 text-white" aria-hidden="true" />
         </span>
       </div>
     </section>
