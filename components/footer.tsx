@@ -45,7 +45,7 @@ export function Footer() {
           <div className="flex flex-col items-center gap-4">
             <h3 className="text-lg font-bold text-foreground">Siguenos</h3>
             <a
-              href="https://www.instagram.com/bonitacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/hermosacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-muted hover:bg-muted/80 text-foreground py-2 px-4 rounded-full transition-colors text-sm"
@@ -65,7 +65,7 @@ export function Footer() {
                 <Facebook className="w-8 h-8" />
               </a>
               <a
-                href="https://www.instagram.com/bonitacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
+                href="https://www.instagram.com/hermosacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-amber-400 transition-colors"
@@ -74,7 +74,7 @@ export function Footer() {
                 <Instagram className="w-8 h-8" />
               </a>
               <a
-                href="https://www.tiktok.com/@bonitacartagena?_r=1&_t=ZS-94nnG45L5Pz"
+                href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-94nnG45L5Pz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-amber-400 transition-colors"
@@ -87,7 +87,7 @@ export function Footer() {
 
           {/* Brand Info */}
           <div className="flex flex-col items-center md:items-end gap-4 text-center md:text-right">
-            <h3 className="text-2xl font-bold text-foreground">Bonita Cartagena</h3>
+            <h3 className="text-2xl font-bold text-foreground">Hermosa Cartagena</h3>
             <p className="text-muted-foreground text-sm max-w-xs">
               Tours y experiencias inolvidables en el Caribe colombiano. Vive la magia de Cartagena.
             </p>
@@ -100,7 +100,7 @@ export function Footer() {
         {/* Credits */}
         <div className="text-center pt-8 mt-8 border-t border-border">
           <p className="text-muted-foreground/60 text-xs">
-            {new Date().getFullYear()} Bonita Cartagena. Todos los derechos reservados.
+            {new Date().getFullYear()} Hermosa Cartagena. Todos los derechos reservados.
           </p>
         </div>
       </div>

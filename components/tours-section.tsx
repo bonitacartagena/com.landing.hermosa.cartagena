@@ -205,7 +205,7 @@ const tours = [
 const touristTripSchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
-  name: 'Tours Destacados — Bonita Cartagena',
+  name: 'Tours Destacados — Hermosa Cartagena',
   itemListElement: tours.map((tour, index) => ({
     '@type': 'ListItem',
     position: index + 1,
@@ -213,10 +213,10 @@ const touristTripSchema = {
       '@type': 'TouristTrip',
       name: tour.title,
       description: tour.description,
-      url: `https://bonitacartagena.com/#${tour.id}`,
+      url: `https://hermosacartagena.com/#${tour.id}`,
       provider: {
         '@type': 'LocalBusiness',
-        name: 'Bonita Cartagena',
+        name: 'Hermosa Cartagena',
         telephone: '+573113410983',
       },
       touristType: 'Leisure',

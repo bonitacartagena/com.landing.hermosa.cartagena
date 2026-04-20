@@ -24,7 +24,7 @@ export function SocialLinks() {
           <Facebook className="w-10 h-10" />
         </a>
         <a
-          href="https://www.instagram.com/bonitacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
+          href="https://www.instagram.com/hermosacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground hover:text-primary transition-colors"
@@ -33,7 +33,7 @@ export function SocialLinks() {
           <Instagram className="w-10 h-10" />
         </a>
         <a
-          href="https://www.tiktok.com/@bonitacartagena?_r=1&_t=ZS-94nnG45L5Pz"
+          href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-94nnG45L5Pz"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground hover:text-primary transition-colors"

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 
-const VIDEO_ID = "yAgV-QQrDD8"
+const VIDEO_ID = "N2jIcSDww30"
 
 export function ShortsVideoSection() {
   const iframeRef = useRef<HTMLIFrameElement>(null)
@@ -41,7 +41,7 @@ export function ShortsVideoSection() {
             <iframe
               ref={iframeRef}
               src={`https://www.youtube.com/embed/${VIDEO_ID}?autoplay=1&mute=1&loop=1&playlist=${VIDEO_ID}&playsinline=1&controls=0&rel=0&enablejsapi=1`}
-              title="Bonita Cartagena video"
+              title="Hermosa Cartagena video"
               className="absolute inset-0 h-full w-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               loading="eager"

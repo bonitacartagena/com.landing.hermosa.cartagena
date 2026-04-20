@@ -24,14 +24,14 @@ const testimonials = [
     name: "Carlos Rodriguez",
     location: "Medellin, Colombia",
     rating: 5,
-    text: "El volcan del Totumo fue una experiencia unica. El lodo deja la piel increible y el equipo de Bonita Cartagena nos hizo sentir muy bien atendidos.",
+    text: "El volcan del Totumo fue una experiencia unica. El lodo deja la piel increible y el equipo de Hermosa Cartagena nos hizo sentir muy bien atendidos.",
     avatar: "C"
   },
   {
     name: "Ana Martinez",
     location: "Ciudad de Mexico",
     rating: 5,
-    text: "Nadar con delfines fue un sueno hecho realidad! Gracias Bonita Cartagena por hacer de nuestras vacaciones algo inolvidable.",
+    text: "Nadar con delfines fue un sueno hecho realidad! Gracias Hermosa Cartagena por hacer de nuestras vacaciones algo inolvidable.",
     avatar: "A"
   },
   {
