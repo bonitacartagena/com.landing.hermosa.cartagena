@@ -12,7 +12,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL('https://hermosacartagena.com'),
   title: 'Hermosa Cartagena | Tours y Pasadias en Cartagena de Indias',
-  description: 'Vive una experiencia inolvidable en las islas del Caribe colombiano. Tours a Bora Bora Beach Club, Volcan del Totumo, Nado con Delfines y mas. Reserva ahora por WhatsApp. RNT: 232342',
+  description: 'Vive una experiencia inolvidable en las islas del Caribe colombiano. Tours a Bora Bora Beach Club, Volcan del Totumo, Nado con Delfines y mas. Reserva ahora por WhatsApp. RNT: 1193509325-1',
   keywords: ['tours cartagena', 'bora bora beach club', 'islas del rosario', 'pasadias cartagena', 'turismo cartagena', 'volcan totumo', 'nado con delfines'],
   alternates: {
     canonical: 'https://hermosacartagena.com',
@@ -44,7 +44,7 @@ const localBusinessSchema = {
   '@type': 'LocalBusiness',
   name: 'Hermosa Cartagena',
   description: 'Tours y pasadias en el Caribe colombiano. Experiencias inolvidables en Cartagena de Indias.',
-  telephone: '+573113410983',
+  telephone: '+573244617670',
   url: 'https://hermosacartagena.com',
   address: {
     '@type': 'PostalAddress',
@@ -59,7 +59,7 @@ const localBusinessSchema = {
   },
   sameAs: [
     'https://www.instagram.com/hermosacartagena',
-    'https://www.facebook.com/share/1832eSoeLA/',
+    'https://www.facebook.com/share/1BXzpEvBLz/',
     'https://www.tiktok.com/@hermosacartagena',
   ],
   hasMap: 'https://maps.google.com/?q=Cartagena+de+Indias',
@@ -68,7 +68,7 @@ const localBusinessSchema = {
   identifier: {
     '@type': 'PropertyValue',
     name: 'RNT',
-    value: '232342',
+    value: '1193509325-1',
   },
 }
 

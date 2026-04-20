@@ -1,6 +1,6 @@
 import { Instagram, MessageCircle, Phone, Facebook, MapPin } from "lucide-react"
 
-const WHATSAPP_URL = "https://wa.me/573113410983"
+const WHATSAPP_URL = "https://wa.me/573244617670"
 
 // TikTok icon component
 function TikTok({ className }: { className?: string }) {
@@ -32,7 +32,7 @@ export function Footer() {
 
             <div className="flex items-center gap-2 text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span className="text-sm">+57 311 341 0983</span>
+              <span className="text-sm">+57 324 461 7670</span>
             </div>
 
             <div className="flex items-center gap-2 text-muted-foreground">
@@ -45,18 +45,18 @@ export function Footer() {
           <div className="flex flex-col items-center gap-4">
             <h3 className="text-lg font-bold text-foreground">Siguenos</h3>
             <a
-              href="https://www.instagram.com/hermosacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/hermosacartagena?igsh=d282NmZkNjdudTd2&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-muted hover:bg-muted/80 text-foreground py-2 px-4 rounded-full transition-colors text-sm"
             >
               <Instagram className="w-4 h-4" />
-              @BONITACARTAGENA
+              @HERMOSACARTAGENA
             </a>
 
             <div className="flex gap-6">
               <a
-                href="https://www.facebook.com/share/1832eSoeLA/?mibextid=wwXIfr"
+                href="https://www.facebook.com/share/1BXzpEvBLz/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-amber-400 transition-colors"
@@ -65,7 +65,7 @@ export function Footer() {
                 <Facebook className="w-8 h-8" />
               </a>
               <a
-                href="https://www.instagram.com/hermosacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
+                href="https://www.instagram.com/hermosacartagena?igsh=d282NmZkNjdudTd2&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-amber-400 transition-colors"
@@ -74,13 +74,22 @@ export function Footer() {
                 <Instagram className="w-8 h-8" />
               </a>
               <a
-                href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-94nnG45L5Pz"
+                href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-95fqG1sbicO"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-amber-400 transition-colors"
                 aria-label="TikTok"
               >
                 <TikTok className="w-8 h-8" />
+              </a>
+              <a
+                href="https://wa.me/573244617670"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-green-500 transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="w-8 h-8" />
               </a>
             </div>
           </div>
@@ -92,7 +101,7 @@ export function Footer() {
               Tours y experiencias inolvidables en el Caribe colombiano. Vive la magia de Cartagena.
             </p>
             <p className="text-muted-foreground text-xs">
-              RNT: 232342
+              RNT: 1193509325-1
             </p>
           </div>
         </div>

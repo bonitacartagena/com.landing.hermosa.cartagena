@@ -41,16 +41,16 @@ const afterToursImages = [
 
 const afterVideoImages = [
   {
+    src: "/testimonio_1.jpeg",
+    alt: "Familia posando en el letrero del Oceanario Islas del Rosario durante su experiencia en Cartagena",
+  },
+  {
     src: "/testimonio_2.jpeg",
     alt: "Pareja disfrutando una parada junto al mar durante un tour en Cartagena",
   },
   {
     src: "/testimonio_3.jpeg",
     alt: "Pareja disfrutando la playa en Cartagena",
-  },
-  {
-    src: "/testimonio_1.jpeg",
-    alt: "Familia posando en el letrero del Oceanario Islas del Rosario durante su experiencia en Cartagena",
   },
   {
     src: "/testimonio_4.jpeg",

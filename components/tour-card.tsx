@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Clock, Check, ChevronDown, ChevronUp } from "lucide-react"
 import { useState } from "react"
 
-const WHATSAPP_NUMBER = "573113410983"
+const WHATSAPP_NUMBER = "573244617670"
 
 interface TourCardProps {
   id: string
@@ -41,7 +41,7 @@ export function TourCard({ id, title, description, image, duration, includes }: 
           {title}
         </h3>
         {duration ? (
-          <div className="flex items-center gap-2 text-teal-400">
+          <div className="flex items-center gap-2 text-amber-400">
             <Clock className="w-4 h-4" />
             <span className="text-xs font-medium">{duration}</span>
           </div>
@@ -51,14 +51,14 @@ export function TourCard({ id, title, description, image, duration, includes }: 
 
         {/* Includes */}
         <div className="space-y-2">
-          <h4 className="text-teal-400 font-semibold flex items-center gap-2 text-sm">
+          <h4 className="text-amber-400 font-semibold flex items-center gap-2 text-sm">
             <Check className="w-4 h-4" />
             Incluye
           </h4>
           <ul className="space-y-1">
             {visibleIncludes.map((item, index) => (
               <li key={index} className="flex items-center gap-2 text-xs text-muted-foreground">
-                <Check className="w-3 h-3 text-teal-400 flex-shrink-0" />
+                <Check className="w-3 h-3 text-amber-400 flex-shrink-0" />
                 <span>{item}</span>
               </li>
             ))}
@@ -66,7 +66,7 @@ export function TourCard({ id, title, description, image, duration, includes }: 
               <li>
                 <button
                   onClick={() => setShowAll(!showAll)}
-                  className="flex items-center gap-1 text-xs text-teal-400 font-medium hover:text-teal-300 transition-colors mt-1"
+                  className="flex items-center gap-1 text-xs text-amber-400 font-medium hover:text-amber-300 transition-colors mt-1"
                 >
                   {showAll ? (
                     <>
@@ -90,7 +90,7 @@ export function TourCard({ id, title, description, image, duration, includes }: 
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-teal-400 to-emerald-500 hover:from-teal-500 hover:to-emerald-600 text-white font-semibold py-3 px-4 rounded-full transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-teal-500/30 mt-3 text-sm"
+          className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-white font-semibold py-3 px-4 rounded-full transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-orange-500/30 mt-3 text-sm"
         >
           Reservar Ahora
         </a>

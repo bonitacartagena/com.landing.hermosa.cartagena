@@ -14,46 +14,109 @@ import {
 
 const testimonials = [
   {
-    name: "Maria Garcia",
-    location: "Bogota, Colombia",
+    name: "Carlos Silva",
+    location: "São Paulo, Brasil 🇧🇷",
     rating: 5,
-    text: "Increible experiencia! El tour a Bora Bora fue espectacular. Todo muy bien organizado y el servicio excelente. 100% recomendado!",
-    avatar: "M"
-  },
-  {
-    name: "Carlos Rodriguez",
-    location: "Medellin, Colombia",
-    rating: 5,
-    text: "El volcan del Totumo fue una experiencia unica. El lodo deja la piel increible y el equipo de Hermosa Cartagena nos hizo sentir muy bien atendidos.",
+    text: "Experiência simplesmente perfeita! 😍 As ilhas são lindas e o atendimento foi impecável do início ao fim. Me senti muito bem cuidado pela equipe. Foi inesquecível! Kkkkkkk",
     avatar: "C"
   },
   {
-    name: "Ana Martinez",
-    location: "Ciudad de Mexico",
+    name: "Jessica Brown",
+    location: "Miami, USA 🇺🇸",
     rating: 5,
-    text: "Nadar con delfines fue un sueno hecho realidad! Gracias Hermosa Cartagena por hacer de nuestras vacaciones algo inolvidable.",
-    avatar: "A"
-  },
-  {
-    name: "Juan Pablo Mendez",
-    location: "Buenos Aires, Argentina",
-    rating: 5,
-    text: "Las islas son un paraiso! El servicio fue de primera desde la reserva por WhatsApp hasta el regreso. Volvere pronto!",
+    text: "Everything was smooth and well organized. The team made us feel comfortable the whole time. This wasn't just a tour, it felt like a full experience. We kill it!",
     avatar: "J"
   },
   {
-    name: "Maiyah",
-    location: "Atlanta, Georgia",
+    name: "Luis Hernández",
+    location: "Ciudad de México, México 🇲🇽",
     rating: 5,
-    text: "Good afternoon, I just wanted to thank you for everything... We had an amazing time on the tours and the trips to the islands were so much fun. See you next time 🫶🏼 We loved Cartagena🇨🇴",
+    text: "Realizamos el 5 islas VIP, el tour estuvo chingon y los lugares que visitamos en Cartagena una completa chulada. Destaco mucho la atención de los guías, siempre al pendiente de nosotros.",
+    avatar: "L"
+  },
+  {
+    name: "Miguel Santos",
+    location: "Santo Domingo, República Dominicana 🇩🇴",
+    rating: 5,
+    text: "🔥🔥🔥 Una locura vivir la Chiva rumbera! Conoces pila de lugares y al finalizar se forma el verdadero Teteo en la discoteca RD, Ay mi madreeee",
     avatar: "M"
   },
   {
-    name: "Cinthia de Souza",
-    location: "São Paulo",
+    name: "Valentina Rojas",
+    location: "Buenos Aires, Argentina 🇦🇷",
     rating: 5,
-    text: "Muito obrigado pela atenção, divertimo-nos imenso nos passeios; o passeio VIP das 5 ilhas é o máximo 🤗🥳",
+    text: "Che, si podes anda a Isla Palma, es un paraíso total, la pasamos re piola, Gracias a Hermosa Cartagena nos llevamos un recuerdo inolvidable.",
+    avatar: "V"
+  },
+  {
+    name: "Sebastián Torres",
+    location: "Santiago, Chile 🇨🇱",
+    rating: 4,
+    text: "Bonita experiencia, las playas hermosas y el ambiente muy entretenido. El acompañamiento fue muy bueno, podria mejorar el tramo a Baru.",
+    avatar: "S"
+  },
+  {
+    name: "Diego Ramírez",
+    location: "Lima, Perú 🇵🇪",
+    rating: 5,
+    text: "Todo salió perfecto 🙌 Desde la reserva hasta el regreso. El equipo siempre pendiente, se nota el profesionalismo de Hermosa Cartagena.",
+    avatar: "D"
+  },
+  {
+    name: "Camille Dubois",
+    location: "Paris, France 🇫🇷",
+    rating: 5,
+    text: "Une expérience incroyable! L'équipe était très attentionnée. Merci à Hermosa Cartagena pour ce moment inoubliable.",
     avatar: "C"
+  },
+  {
+    name: "Rafael Costa",
+    location: "Rio de Janeiro, Brasil 🇧🇷",
+    rating: 4,
+    text: "Muito bom passeio! As águas são lindas 😎 e o atendimento foi excelente. Se forem a Cholon, tomem cuidado com seus pertences.",
+    avatar: "R"
+  },
+  {
+    name: "Anthony Jackson",
+    location: "New York, USA 🇺🇸",
+    rating: 5,
+    text: "Amazing experience! The guides were super friendly and the whole team made sure we were safe and having fun.",
+    avatar: "A"
+  },
+  {
+    name: "Fernanda López",
+    location: "Guadalajara, México 🇲🇽",
+    rating: 5,
+    text: "Una experiencia inolvidable 😍 Todo súper bien organizado, pero lo mejor fue el trato humano. Gracias a Hermosa Cartagena por tanto.",
+    avatar: "F"
+  },
+  {
+    name: "José Martínez",
+    location: "Punta Cana, República Dominicana 🇩🇴",
+    rating: 4,
+    text: "Buen servicio y excelente ambiente. Siempre atentos a nosotros y muy buena energía durante todo el tour.",
+    avatar: "J"
+  },
+  {
+    name: "Bruno Alves",
+    location: "Recife, Brasil 🇧🇷",
+    rating: 5,
+    text: "Cartagena é incrível! 🌴💙 O atendimento foi perfeito e a experiência com Hermosa Cartagena foi inesquecível!",
+    avatar: "B"
+  },
+  {
+    name: "Kevin Williams",
+    location: "Houston, USA 🇺🇸",
+    rating: 4,
+    text: "Great tour overall. Beautiful locations and good energy. Everything was well handled and organized.",
+    avatar: "K"
+  },
+  {
+    name: "Martina Pérez",
+    location: "Córdoba, Argentina 🇦🇷",
+    rating: 5,
+    text: "Una experiencia única! 👏✨ La atención fue espectacular. Juan estuvo pendiente en todo momento y eso hizo la diferencia. Gracias a Hermosa Cartagena.",
+    avatar: "M"
   }
 ]
 

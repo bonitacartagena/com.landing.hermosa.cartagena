@@ -38,9 +38,15 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="mt-28 flex justify-center md:mt-36">
-        <span className="text-center text-md font-bold text-muted-foreground md:text-lg">
-          RNT: 232342
+      <div className="mt-28 flex flex-col items-center md:mt-36 gap-1">
+        <p className="text-center text-lg md:text-xl font-bold italic text-white">
+          ☀️ Líderes en experiencias Turísticas en Cartagena 🌴
+        </p>
+        <p className="text-center text-base md:text-lg font-bold italic text-white/90">
+          +2.000 historias felices nos respaldan 💙
+        </p>
+        <span className="text-center text-md font-bold text-muted-foreground md:text-lg mt-1">
+          RNT: 1193509325-1 <span className="text-white">✔️</span>
         </span>
       </div>
     </section>

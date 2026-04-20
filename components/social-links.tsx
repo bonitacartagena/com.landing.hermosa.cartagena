@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from "lucide-react"
+import { Facebook, Instagram, MessageCircle } from "lucide-react"
 
 // TikTok icon component
 function TikTok({ className }: { className?: string }) {
@@ -12,10 +12,13 @@ function TikTok({ className }: { className?: string }) {
 export function SocialLinks() {
   return (
     <section className="flex flex-col items-center gap-4 py-6">
-      <p className="text-muted-foreground text-sm">Siguenos en Nuestras Redes</p>
+      <p className="text-muted-foreground text-sm text-center leading-relaxed">
+        Únete a nuestra comunidad de +200.000 viajeros<br />
+        Descubre experiencias únicas, momentos inolvidables 🌴✨
+      </p>
       <div className="flex gap-6">
         <a
-          href="https://www.facebook.com/share/1832eSoeLA/?mibextid=wwXIfr"
+          href="https://www.facebook.com/share/1BXzpEvBLz/?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground hover:text-primary transition-colors"
@@ -24,7 +27,7 @@ export function SocialLinks() {
           <Facebook className="w-10 h-10" />
         </a>
         <a
-          href="https://www.instagram.com/hermosacartagena?igsh=MXNpcmF0MGRsM3lmeg%3D%3D&utm_source=qr"
+          href="https://www.instagram.com/hermosacartagena?igsh=d282NmZkNjdudTd2&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground hover:text-primary transition-colors"
@@ -33,13 +36,22 @@ export function SocialLinks() {
           <Instagram className="w-10 h-10" />
         </a>
         <a
-          href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-94nnG45L5Pz"
+          href="https://www.tiktok.com/@hermosacartagena?_r=1&_t=ZS-95fqG1sbicO"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground hover:text-primary transition-colors"
           aria-label="TikTok"
         >
           <TikTok className="w-10 h-10" />
+        </a>
+        <a
+          href="https://wa.me/573244617670"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-foreground hover:text-green-500 transition-colors"
+          aria-label="WhatsApp"
+        >
+          <MessageCircle className="w-10 h-10" />
         </a>
       </div>
     </section>

@@ -217,7 +217,7 @@ const touristTripSchema = {
       provider: {
         '@type': 'LocalBusiness',
         name: 'Hermosa Cartagena',
-        telephone: '+573113410983',
+        telephone: '+573244617670',
       },
       touristType: 'Leisure',
       itinerary: {
@@ -259,7 +259,7 @@ export function ToursSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(touristTripSchema) }}
       />
       <h2 className="text-center text-2xl md:text-4xl font-bold text-foreground mb-8 md:mb-12">
-        Tours Destacados
+        Tours Destacados <span className="text-white">⭐</span>
       </h2>
       <Carousel
         setApi={setApi}
