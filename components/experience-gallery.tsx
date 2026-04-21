@@ -4,31 +4,31 @@ import Image from "next/image"
 
 const experiences = [
   {
-    src: "/snorkel-islas-cartagena.jpeg",
+    src: "/snorkel-islas-cartagena.webp",
     alt: "Grupo de turistas haciendo snorkel en las aguas turquesas de las Islas del Rosario",
   },
   {
-    src: "/turistas-snorkel-cartagena.jpeg",
+    src: "/turistas-snorkel-cartagena.webp",
     alt: "Turistas disfrutando de snorkel en el Caribe colombiano",
   },
   {
-    src: "/amigas-mar-cristalino-cartagena.jpeg",
+    src: "/amigas-mar-cristalino-cartagena.webp",
     alt: "Amigas bañandose en el mar cristalino de las islas de Cartagena",
   },
   {
-    src: "/familia-oceanario-cartagena.jpeg",
+    src: "/familia-oceanario-cartagena.webp",
     alt: "Familia disfrutando del Oceanario en las Islas del Rosario, Cartagena",
   },
   {
-    src: "/amigas-playa-turquesa-cartagena.jpeg",
+    src: "/amigas-playa-turquesa-cartagena.webp",
     alt: "Amigas posando en la playa turquesa del Caribe en Cartagena",
   },
   {
-    src: "/turistas-islas-del-rosario.jpeg",
+    src: "/turistas-islas-del-rosario.webp",
     alt: "Turistas explorando las hermosas Islas del Rosario, Cartagena de Indias",
   },
   {
-    src: "/tour-murales-getsemani.jpeg",
+    src: "/tour-murales-getsemani.webp",
     alt: "Tour por los famosos murales del barrio Getsemani, Cartagena",
   },
 ]

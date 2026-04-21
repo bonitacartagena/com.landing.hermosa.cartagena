@@ -2,15 +2,15 @@ import Image from "next/image";
 import { Check } from "lucide-react";
 const heroImages = [
   {
-    src: "/1.jpeg?v=2",
+    src: "/1.webp?v=2",
     alt: "Turistas en lancha deportiva rumbo a las Islas del Rosario, Cartagena de Indias",
   },
   {
-    src: "/2.jpeg?v=2",
+    src: "/2.webp?v=2",
     alt: "Isla paradisiaca de aguas turquesas en el Caribe colombiano",
   },
   {
-    src: "/3.jpeg?v=2",
+    src: "/3.webp?v=2",
     alt: "Bora Bora Beach Club, el mejor beach club de Cartagena",
   },
 ] as const;

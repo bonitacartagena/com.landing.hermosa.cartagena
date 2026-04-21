@@ -4,27 +4,27 @@ import Image from "next/image"
 
 const galleryImages = [
   {
-    src: "/galeria-mariposas-garcia-marquez.jpeg",
+    src: "/galeria-mariposas-garcia-marquez.webp",
     alt: "Mariposas amarillas inspiradas en el arte de Gabriel Garcia Marquez en Cartagena",
   },
   {
-    src: "/castillo-san-felipe-aerea.png",
+    src: "/castillo-san-felipe-aerea.webp",
     alt: "Vista aerea del Castillo San Felipe de Barajas, fortaleza historica de Cartagena de Indias",
   },
   {
-    src: "/escultura-palenquera-cartagena.jpeg",
+    src: "/escultura-palenquera-cartagena.webp",
     alt: "Escultura de palenquera, icono cultural del arte urbano de Cartagena",
   },
   {
-    src: "/flamingos-manglar-cartagena.png",
+    src: "/flamingos-manglar-cartagena.webp",
     alt: "Flamingos rosados en el manglar de las Islas del Rosario, Cartagena",
   },
   {
-    src: "/bote-aguas-cristalinas-cartagena.jpeg",
+    src: "/bote-aguas-cristalinas-cartagena.webp",
     alt: "Paseo en bote deportivo por las aguas cristalinas del Caribe colombiano",
   },
   {
-    src: "/nado-delfines-cartagena.png",
+    src: "/nado-delfines-cartagena.webp",
     alt: "Experiencia de nado con delfines en Cartagena de Indias",
   },
 ]
