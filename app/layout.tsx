@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://hermosacartagena.com',
     images: [
       {
-        url: '/hero-islas-del-rosario.webp',
+        url: '/hero-islas-del-rosario.jpeg',
         width: 1200,
         height: 630,
         alt: 'Tours y pasadias en las Islas del Rosario, Cartagena de Indias',
