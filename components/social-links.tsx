@@ -15,8 +15,20 @@ export function SocialLinks() {
   return (
     <section className="flex flex-col items-center gap-4 py-6 w-full max-w-sm md:max-w-4xl mx-auto px-4">
       <p className="w-full text-muted-foreground text-sm text-center leading-relaxed">
-        Únete a nuestra comunidad de <strong>+200.000 viajeros</strong><br />
-        Descubre experiencias <strong>únicas</strong>, momentos <strong>inolvidables</strong> 🌴✨
+        Únete a nuestra comunidad de{" "}
+        <strong className="text-white">
+          +200.000 viajeros
+        </strong>
+        <br />
+        Descubre experiencias{" "}
+        <strong className="text-white">
+          únicas
+        </strong>
+        , momentos{" "}
+        <strong className="text-white">
+          inolvidables
+        </strong>{" "}
+        🌴✨
       </p>
       <div className="flex gap-6">
         <a
