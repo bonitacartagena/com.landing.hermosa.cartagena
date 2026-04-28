@@ -61,7 +61,7 @@ export function Hero() {
           <span className="block text-white">&nbsp;&nbsp;&nbsp;Turísticas en Cartagena 🌴</span>
         </p>
         <p className="text-center text-base md:text-lg font-bold italic text-white/90">
-          +5.000 historias felices nos respaldan 🤍
+          +100.000 historias felices nos respaldan 🤍
         </p>
         <span className="mt-1 inline-flex items-center gap-1 text-center text-md font-bold text-muted-foreground md:text-lg">
           RNT: 205217
