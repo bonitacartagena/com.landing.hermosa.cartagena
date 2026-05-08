@@ -236,24 +236,28 @@ export function ToursSection() {
   const [api, setApi] = useState<CarouselApi>()
 
   useEffect(() => {
-    if (!api) {
-      return
-    }
+    if (!api) return
 
+    let ticks = 0
     const interval = window.setInterval(() => {
+      ticks++
+      if (ticks < 3) return
+
       if (api.canScrollNext()) {
         api.scrollNext()
-        return
+      } else {
+        api.scrollTo(0)
       }
-
-      api.scrollTo(0)
     }, 3000)
 
     return () => window.clearInterval(interval)
   }, [api])
 
   return (
-    <section id="tours" className="w-full py-8 md:py-16 px-4 md:px-8 lg:px-16">
+    <section
+      id="tours"
+      className="w-full py-8 md:py-16 px-4 md:px-8 lg:px-16"
+    >
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(touristTripSchema) }}
